@@ -24,6 +24,7 @@ DEBUG = os.environ.get('DEBUG', 'on') == 'on'
 
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
+
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost').split(',')
 
 
